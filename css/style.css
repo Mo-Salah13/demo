@@ -1,0 +1,73 @@
+.logo img {
+  width: 75px;
+}
+body {
+  background: url(../image/john-fowler-ppWthnXdbrM-unsplash.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header ul a {
+  color: #ffffff86;
+  padding: 5px 15px;
+  font-size: 18px;
+  text-decoration: none;
+  border: 1px solid #009ad8;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+header ul a:hover {
+  background-color: #03212dac;
+  color: #fff;
+}
+.logo a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  background: linear-gradient(to right, #009ad8, #fff);
+  background-clip: text;
+  color: transparent;
+}
+.Search {
+  display: flex;
+  width: 100%;
+  padding: 4px;
+  padding-left: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: #03212dac;
+  border-radius: 50px;
+  border: 1px solid #009ad8;
+}
+
+input {
+  width: 100%;
+  height: 54px;
+  background: none;
+  border: 0;
+  padding: 0;
+  outline: none;
+  color: #ffffff8c;
+}
+
+button {
+  height: 54px;
+  width: 94px;
+  background-color: #009ad8;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-style: none;
+  border-radius: 50px;
+  cursor: pointer;
+  outline: none;
+}
+.col-md-3 {
+  color: #ffffff;
+  background-color: #16283ca4;
+  height: 500px;
+}
+.locContainer{
+  background-color: #03212dac;
+  color: #fff;
+  width: 180px;
+}
